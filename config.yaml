@@ -1,0 +1,15 @@
+id: example_reporting_extension
+name: Example Reporting Extension
+description: This is an example reporting extension
+version: 1.0.0
+authors: Soufiane Oualil <https://github.com/sooualil>, Ahmed Bargady <https://github.com/AhmedCoolProjects>
+license: BSD
+
+requirements: requirements.txt
+
+channels:
+  subscribe: [inference-channel]
+
+log:
+  dir: ./logs
+  level: DEBUG
